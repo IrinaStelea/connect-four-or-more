@@ -55,7 +55,6 @@ function getFwdDiagonal(gameObject) {
 function checkNbWinningSlots(set, gameObject) {
     let winningNumber = gameObject.config[2];
     let playerTurn = gameObject.lastMove[2];
-    //avoid unnecessary checks for shorter sets
     if (set.length < winningNumber) {
         return false;
     }
@@ -72,7 +71,6 @@ function checkNbWinningSlots(set, gameObject) {
                 gameObject.winningSlots = gameObject.winningSlots
                     ? [...gameObject.winningSlots, ...winningSlots]
                     : winningSlots;
-                console.log("winning slots game object", gameObject.winningSlots);
                 return true;
             }
             else {
