@@ -2,7 +2,7 @@
 
 ## Live at:
 
-https://connect-4-or-more.herokuapp.com
+https://connect4-more.herokuapp.com
 
 ## Overview
 
@@ -17,9 +17,11 @@ The first user who manages to connect horizontally, vertically or diagonally fou
 ## Features
 
 -   Two-player setup
+
     -   the player who starts the game (admin) invites the opponent via a unique code
 
 -   Customisable game board
+
     -   the number of rows, column and slots required to win can be chosen by the admin player from a predefined range
 
 -   Realtime game experience
@@ -28,6 +30,7 @@ The first user who manages to connect horizontally, vertically or diagonally fou
     -   the game reacts to the player whose turn it is and, once a slot has been added, it shows the outcome to both players
 
 -   Victory / draw
+
     -   in case of victory / loss / draw, the game displays the relevant notification to each player
 
 -   Multiple games
